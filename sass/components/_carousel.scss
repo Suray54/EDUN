@@ -6,6 +6,9 @@
 
 // changing indicator
 .carousel-indicators li {
+  @media only screen and (max-width: 600px) {
+    display: none;
+  }
   width: 15px;
   height: 15px;
   border-radius: 50%;

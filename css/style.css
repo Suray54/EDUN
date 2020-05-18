@@ -189,6 +189,9 @@ body {
   height: 15px;
   border-radius: 50%;
   margin-bottom: 5%; }
+  @media only screen and (max-width: 600px) {
+    .carousel-indicators li {
+      display: none; } }
 
 .carousel-control-prev-icon {
   width: 50px;
