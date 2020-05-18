@@ -1,0 +1,134 @@
+///////////////// NewBar ////////////////////
+
+.newbar {
+  color: $color-white;
+
+  &__result {
+    background-color: #06ad99;
+    padding: 4rem;
+    h1 {
+      text-align: center;
+      font-weight: 400;
+      font-size: 3rem;
+      line-height: 4.5rem;
+      text-transform: uppercase;
+      span {
+        font-weight: 700;
+        text-decoration: underline;
+        margin-left: 5px;
+      }
+    }
+    &-content {
+      text-align: center;
+      text-transform: uppercase;
+
+      h2 {
+        font-size: 4rem;
+        font-weight: 700;
+        line-height: 5rem;
+      }
+
+      p {
+        font-size: 1.5rem;
+        letter-spacing: 2px;
+        line-height: 3rem;
+      }
+    }
+  }
+
+  &__goals {
+    background-color: rgb(235, 203, 82);
+    padding: 3rem;
+
+    h1 {
+      text-align: center;
+      font-weight: 400;
+      font-size: 3rem;
+      line-height: 4.5rem;
+      text-transform: uppercase;
+    }
+    ul {
+      li {
+        border-bottom: 1px dotted $color-white;
+        margin-top: 2px;
+        text-transform: capitalize;
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+  }
+
+  &__donate {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #d55c47;
+    padding: 3rem;
+    text-align: center;
+    h3 {
+      font-size: 2rem;
+      font-weight: 300;
+      letter-spacing: 3px;
+      line-height: 2rem;
+      text-transform: uppercase;
+    }
+    h1 {
+      font-size: 3rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      line-height: 3.5rem;
+    }
+    .btn-check {
+      &:link,
+      &:visited {
+        margin-top: 1.5rem;
+        padding: 1rem 2rem;
+        text-align: center;
+        display: inline-block;
+        font-size: 1.4rem;
+        line-height: 1.4rem;
+        background-color: var(--color-black-dark);
+        border-radius: 4rem;
+        text-decoration: none;
+        color: $color-white;
+      }
+    }
+  }
+}
+
+////////////////// About /////////////////
+
+.about {
+  padding: 10vh 5%;
+
+  &__content {
+    background-color: $primary-color-back;
+    padding: 30px 4%;
+    color: $color-white;
+    h1 {
+      span {
+        font-weight: 700;
+      }
+    }
+    p {
+      font-size: 1.3rem;
+    }
+  }
+
+  &__write {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p {
+      font-size: 1.4rem;
+      color: $color-write;
+      span {
+        color: $primary-color;
+        display: block;
+        margin-top: 5px;
+      }
+    }
+  }
+}
