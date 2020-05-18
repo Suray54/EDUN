@@ -125,9 +125,14 @@
       font-size: 1.4rem;
       color: $color-write;
       span {
-        color: $primary-color;
-        display: block;
-        margin-top: 5px;
+        a {
+          color: $primary-color;
+          display: block;
+          margin-top: 5px;
+          &:hover {
+            color: $secondary-color;
+          }
+        }
       }
     }
   }
@@ -154,6 +159,23 @@
       width: 95%;
       overflow: hidden;
       background-color: $color-white;
+
+      &:hover {
+        background-color: $primary-color-back;
+        & .card-text {
+          color: $color-white;
+        }
+        & .card-body {
+          color: $color-white;
+        }
+        & .card-body::before {
+          background-color: $secondary-color;
+        }
+
+        & .btn-read {
+          background-color: $secondary-color;
+        }
+      }
     }
     img {
       padding: 15px;
@@ -166,7 +188,7 @@
         position: absolute;
         padding: 2px 40px;
         background-color: $primary-color-back;
-        top: 30%;
+        top: 27.5%;
         right: 35%;
         width: 30%;
       }

@@ -208,7 +208,7 @@ body {
   font-weight: 700;
   letter-spacing: 1.5px;
   line-height: 2.04rem;
-  background-color: #f7c33f;
+  background-color: #64b1d5;
   text-decoration: none;
   color: #fff; }
 
@@ -576,10 +576,12 @@ body {
     .about__write p {
       font-size: 1.4rem;
       color: #a3a3a3; }
-      .about__write p span {
+      .about__write p span a {
         color: #4c91bb;
         display: block;
         margin-top: 5px; }
+        .about__write p span a:hover {
+          color: #f7c33f; }
 
 .cause {
   padding: 15vh 12%;
@@ -599,6 +601,16 @@ body {
       @media only screen and (max-width: 767px) {
         .cause .card .card-bg {
           width: 100%; } }
+      .cause .card .card-bg:hover {
+        background-color: #64b1d5; }
+        .cause .card .card-bg:hover .card-text {
+          color: #fff; }
+        .cause .card .card-bg:hover .card-body {
+          color: #fff; }
+        .cause .card .card-bg:hover .card-body::before {
+          background-color: #f7c33f; }
+        .cause .card .card-bg:hover .btn-read {
+          background-color: #f7c33f; }
     .cause .card img {
       padding: 15px; }
     .cause .card-body {
@@ -609,7 +621,7 @@ body {
         position: absolute;
         padding: 2px 40px;
         background-color: #64b1d5;
-        top: 30%;
+        top: 27.5%;
         right: 35%;
         width: 30%; }
     .cause .card-title {
