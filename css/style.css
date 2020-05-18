@@ -70,6 +70,25 @@ body {
   font-weight: 400;
   line-height: 1.7; }
 
+.heading-primary--main {
+  text-transform: uppercase;
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  cursor: pointer;
+  color: #4c91bb; }
+.heading-primary--sup {
+  text-transform: capitalize;
+  margin-top: 1rem;
+  display: block;
+  font-size: 4rem;
+  font-weight: 600;
+  letter-spacing: 0.5rem;
+  cursor: pointer; }
+  .heading-primary--sup span {
+    color: #f7c33f; }
+
 .u-text-centre {
   text-align: center; }
 
@@ -180,9 +199,26 @@ body {
 .icon-youtube2:before {
   content: "\ea9e"; }
 
+.btn-read:link, .btn-read:visited {
+  margin-top: 1.5rem;
+  padding: 1.2rem 2.7rem;
+  text-align: center;
+  display: inline-block;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  line-height: 2.04rem;
+  background-color: #f7c33f;
+  text-decoration: none;
+  color: #fff; }
+
 .carousel-inner img {
   width: 100%;
   height: 100%; }
+
+@media only screen and (max-width: 400px) {
+  .carousel {
+    display: none; } }
 
 .carousel-indicators li {
   width: 15px;
@@ -523,7 +559,7 @@ body {
       color: #fff; }
 
 .about {
-  padding: 10vh 5%; }
+  padding: 10vh 10%; }
   .about__content {
     background-color: #64b1d5;
     padding: 30px 4%;
@@ -544,5 +580,44 @@ body {
         color: #4c91bb;
         display: block;
         margin-top: 5px; }
+
+.cause {
+  padding: 15vh 12%;
+  background-color: #f6f6f6; }
+  .cause .card {
+    margin-top: 5vh;
+    border: none;
+    overflow: hidden;
+    padding: 0;
+    text-align: center;
+    background-color: #f6f6f6; }
+    .cause .card .card-bg {
+      border-radius: 10px;
+      width: 95%;
+      overflow: hidden;
+      background-color: #fff; }
+      @media only screen and (max-width: 767px) {
+        .cause .card .card-bg {
+          width: 100%; } }
+    .cause .card img {
+      padding: 15px; }
+    .cause .card-body {
+      padding: 20px;
+      position: relative; }
+      .cause .card-body::before {
+        content: "";
+        position: absolute;
+        padding: 2px 40px;
+        background-color: #64b1d5;
+        top: 30%;
+        right: 35%;
+        width: 30%; }
+    .cause .card-title {
+      margin-top: 1rem;
+      font-size: 20px;
+      line-height: 20px; }
+    .cause .card-text {
+      margin-top: 4rem;
+      color: #a3a3a3; }
 
 /*# sourceMappingURL=style.css.map */

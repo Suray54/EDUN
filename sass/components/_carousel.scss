@@ -4,6 +4,11 @@
   height: 100%;
 }
 
+.carousel {
+  @media only screen and (max-width: 400px) {
+    display: none;
+  }
+}
 // changing indicator
 .carousel-indicators li {
   @media only screen and (max-width: 600px) {

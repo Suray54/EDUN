@@ -100,7 +100,7 @@
 ////////////////// About /////////////////
 
 .about {
-  padding: 10vh 5%;
+  padding: 10vh 10%;
 
   &__content {
     background-color: $primary-color-back;
@@ -129,6 +129,57 @@
         display: block;
         margin-top: 5px;
       }
+    }
+  }
+}
+
+///////////// Cause ////////////////
+.cause {
+  padding: 15vh 12%;
+  background-color: $color-bg;
+  & .card {
+    margin-top: 5vh;
+    border: none;
+    overflow: hidden;
+    padding: 0;
+    text-align: center;
+    background-color: $color-bg;
+
+    ///added extra class for making white space between the cards
+    & .card-bg {
+      @media only screen and (max-width: 767px) {
+        width: 100%;
+      }
+      border-radius: 10px;
+      width: 95%;
+      overflow: hidden;
+      background-color: $color-white;
+    }
+    img {
+      padding: 15px;
+    }
+    &-body {
+      padding: 20px;
+      position: relative;
+      &::before {
+        content: "";
+        position: absolute;
+        padding: 2px 40px;
+        background-color: $primary-color-back;
+        top: 30%;
+        right: 35%;
+        width: 30%;
+      }
+    }
+    &-title {
+      margin-top: 1rem;
+      font-size: 20px;
+      line-height: 20px;
+    }
+
+    &-text {
+      margin-top: 4rem;
+      color: $color-write;
     }
   }
 }

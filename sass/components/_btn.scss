@@ -1,0 +1,16 @@
+.btn-read {
+  &:link,
+  &:visited {
+    margin-top: 1.5rem;
+    padding: 1.2rem 2.7rem;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    line-height: 2.04rem;
+    background-color: $secondary-color;
+    text-decoration: none;
+    color: $color-white;
+  }
+}
