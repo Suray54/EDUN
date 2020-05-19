@@ -349,6 +349,9 @@ body {
       margin-top: 50px; } }
   .feature-box:not(:last-child) {
     border-right: 2px solid #fff; }
+    @media only screen and (max-width: 995px) {
+      .feature-box:not(:last-child) {
+        border: none; } }
   .feature-box__icon {
     font-size: 5rem;
     color: #f7c33f; }
@@ -751,5 +754,9 @@ body {
   .staff a {
     float: right;
     margin-right: 40px; }
+    @media only screen and (max-width: 600px) {
+      .staff a {
+        float: left;
+        margin-left: 40px; } }
 
 /*# sourceMappingURL=style.css.map */

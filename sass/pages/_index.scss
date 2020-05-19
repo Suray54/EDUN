@@ -263,5 +263,9 @@
   a {
     float: right;
     margin-right: 40px;
+    @media only screen and (max-width: 600px) {
+      float: left;
+      margin-left: 40px;
+    }
   }
 }
