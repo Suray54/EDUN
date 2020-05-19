@@ -1,0 +1,75 @@
+.member-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20rem 4rem 5rem 4rem;
+  cursor: pointer;
+  transition: all 0.3s;
+
+  &:hover {
+    transform: scale(1.1);
+    z-index: 100;
+  }
+
+  &--1 {
+    background-image: url(/img/person1.jpg);
+    background-size: cover;
+    background-position: top;
+  }
+
+  &--2 {
+    background-image: url(/img/person2.jpg);
+    background-size: cover;
+    background-position: top;
+  }
+  &--3 {
+    background-image: url(/img/person2.jpg);
+    background-size: cover;
+    background-position: top;
+  }
+  &--4 {
+    background-image: url(/img/person1.jpg);
+    background-size: cover;
+    background-position: top;
+  }
+
+  &__heading {
+    color: $color-white;
+    font-size: 2.4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $secondary-color;
+  }
+
+  p {
+    font-size: 2rem;
+    line-height: 28.9px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin: 0;
+    margin-top: 1.5rem;
+    color: $color-white;
+    text-transform: capitalize;
+  }
+
+  &__social-icons {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    & li {
+      &:not(:last-child) {
+        margin-right: 3rem;
+      }
+
+      a {
+        padding: 0;
+        margin: 0;
+      }
+    }
+    i {
+      font-size: 1.8rem;
+      color: $secondary-color;
+    }
+  }
+}

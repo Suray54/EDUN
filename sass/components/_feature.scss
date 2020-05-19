@@ -1,0 +1,26 @@
+.feature-box {
+  @media only screen and (max-width: 995px) {
+    margin-top: 50px;
+  }
+
+  padding: 0 4rem;
+  &__icon {
+    font-size: 5rem;
+    color: $secondary-color;
+  }
+
+  &__heading {
+    margin-top: 2rem;
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 6.2rem;
+    text-transform: uppercase;
+  }
+
+  p {
+    font-size: 1.7rem;
+    line-height: 28.9px;
+    color: $secondary-color;
+    margin: 0;
+  }
+}

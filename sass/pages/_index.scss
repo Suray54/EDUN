@@ -103,9 +103,13 @@
   padding: 10vh 10%;
 
   &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: $primary-color-back;
-    padding: 30px 4%;
+    padding: 5vh 4%;
     color: $color-white;
+
     h1 {
       span {
         font-weight: 700;
@@ -113,15 +117,20 @@
     }
     p {
       font-size: 1.3rem;
+      padding: 0;
+      margin: 0;
     }
   }
 
   &__write {
-    padding: 20px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    padding: 2rem;
+
     p {
+      padding: 0;
+      margin: 0;
       font-size: 1.4rem;
       color: $color-write;
       span {
@@ -203,5 +212,51 @@
       margin-top: 4rem;
       color: $color-write;
     }
+  }
+}
+
+///////////// NewBar2 ///////////////
+
+.newbar2 {
+  background-color: $primary-color-back;
+  color: white;
+  text-align: center;
+  padding: 60px 8%;
+}
+
+///////////// Story and Choose //////////////
+
+.story {
+  &__img {
+    margin: 0;
+    padding: 0;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  &__content {
+    background-color: $color-bg;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5vh 10%;
+    p {
+      margin-top: 2rem;
+    }
+    a {
+      align-self: flex-start;
+    }
+  }
+}
+
+/////////// staffs ///////////////
+
+.staff {
+  padding: 15vh 0;
+
+  a {
+    float: right;
+    margin-right: 40px;
   }
 }
