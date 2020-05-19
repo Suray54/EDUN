@@ -2,7 +2,9 @@
   @media only screen and (max-width: 995px) {
     margin-top: 50px;
   }
-
+  &:not(:last-child) {
+    border-right: 2px solid $color-white;
+  }
   padding: 0 4rem;
   &__icon {
     font-size: 5rem;
@@ -19,6 +21,8 @@
 
   p {
     font-size: 1.7rem;
+    font-weight: 600;
+    letter-spacing: 1.5px;
     line-height: 28.9px;
     color: $secondary-color;
     margin: 0;
