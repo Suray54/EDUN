@@ -269,3 +269,111 @@
     }
   }
 }
+
+////////////// News //////////////
+
+.news {
+  padding: 10vh 15%;
+  .btn {
+    float: right;
+
+    @media only screen and (max-width: 600px) {
+      float: left;
+    }
+  }
+  &__content {
+    &-1 {
+      cursor: pointer;
+      margin: 0;
+      padding: 0;
+      position: relative;
+      overflow: hidden;
+      transition: all 0.3s;
+      &:hover {
+        & img {
+          transform: scale(1.1);
+        }
+        & .news__content-1--item {
+          transform: translateY(0px);
+        }
+      }
+
+      &:after {
+        display: block;
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 0;
+        background-color: rgba(0, 0, 0, 0.8);
+        transition: all ease;
+      }
+
+      &:hover:after {
+        width: 100%;
+        height: 100%;
+      }
+
+      img {
+        transition: all 0.3s;
+      }
+      &--item {
+        padding: 10px;
+        color: $color-white;
+        position: absolute;
+        top: 33%;
+        left: 10%;
+        transition: all 0.5s;
+        @media only screen and (max-width: 1200px) {
+          transform: translateY(0px);
+          padding: 0;
+          top: 20%;
+        }
+        transform: translateY(180px);
+        z-index: 1000;
+        h1 {
+          font-size: 3rem;
+          line-height: 37.5px;
+          font-weight: 700;
+        }
+        p {
+          margin-top: 4rem;
+          font-size: 1.4rem;
+          line-height: 27.2px;
+        }
+      }
+    }
+  }
+}
+
+////////////// message //////////////
+.message {
+  padding: 10vh 10%;
+  background-color: $color-bg;
+
+  &__content {
+    margin: 5vh 0;
+    &--img {
+      margin: 0;
+      padding: 120px;
+      background-image: url(../img/president.jpg);
+      background-size: cover;
+      background-position: top;
+    }
+    &--letter {
+      padding: 40px;
+      p {
+        span {
+          text-transform: uppercase;
+          display: block;
+          text-decoration: underline;
+          font-weight: 600;
+        }
+        margin: 0;
+        padding: 0;
+        font-size: 1.3rem;
+      }
+    }
+  }
+}
