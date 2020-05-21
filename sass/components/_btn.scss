@@ -14,3 +14,19 @@
     color: $color-white;
   }
 }
+
+.btn-vol {
+  border: none;
+  color: $color-white;
+  background-color: $secondary-color;
+  border-radius: 5px;
+  padding: 18px 28px;
+  line-height: 12px;
+  font-size: 1.6rem;
+  font-weight: 700;
+  outline: none;
+  margin-top: 3rem;
+  margin-left: 3rem; // giving margin == space from the nav-item
+  box-shadow: 2px 2px 5px rgba(128, 128, 128, 0.479);
+  text-transform: capitalize;
+}
