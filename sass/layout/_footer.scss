@@ -4,8 +4,9 @@
   line-height: 25px;
   &__content {
     background-color: #222222;
-    padding: 10vh 12% 15vh 12%;
+    padding: 10vh 12% 16vh 12%;
     &--1 {
+      margin-top: 2rem;
       img {
         width: 6rem;
         height: 6rem;
@@ -30,6 +31,7 @@
       }
     }
     &--2 {
+      margin-top: 2rem;
       h3 {
         font-weight: 700;
         font-size: 15px;
@@ -41,6 +43,7 @@
       }
     }
     &--3 {
+      margin-top: 2rem;
       h3 {
         font-weight: 700;
         font-size: 15px;
@@ -55,6 +58,7 @@
             text-decoration: none;
             color: $color-white;
             text-transform: capitalize;
+            border-bottom: 0.5px dotted $color-white;
             &:hover {
               color: $secondary-color;
             }
@@ -64,6 +68,7 @@
       }
     }
     &--4 {
+      margin-top: 2rem;
       h3 {
         visibility: hidden;
         font-weight: 700;
@@ -79,6 +84,7 @@
             text-decoration: none;
             color: $color-white;
             text-transform: capitalize;
+            border-bottom: 0.5px dotted $color-white;
             &:hover {
               color: $secondary-color;
             }
@@ -95,6 +101,7 @@
   padding: 15px;
   p {
     color: $color-write;
+    font-size: 1.2rem;
     margin: 0;
     padding: 0;
     text-transform: capitalize;

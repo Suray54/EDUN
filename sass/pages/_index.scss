@@ -349,7 +349,7 @@
 
 ////////////// message //////////////
 .message {
-  padding: 10vh 10%;
+  padding: 10vh 8% 10vh 6%;
   background-color: $color-bg;
 
   &__content {
@@ -398,11 +398,6 @@
       color: $secondary-color;
     }
   }
-}
-
-/////////////// testimoinals ////////////////
-.testimonials {
-  padding: 10vh 10%;
 }
 
 /////////////// subscriber //////////////////
