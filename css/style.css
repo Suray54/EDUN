@@ -378,7 +378,8 @@ body {
     text-transform: uppercase; }
   .feature-box p {
     font-size: 1.7rem;
-    font-weight: 600;
+    font-weight: 700;
+    text-transform: uppercase;
     letter-spacing: 1.5px;
     line-height: 28.9px;
     color: #f7c33f;
@@ -666,7 +667,8 @@ body {
 .newbar {
   color: #fff; }
   .newbar__result {
-    background-color: #06ad99;
+    background-image: linear-gradient(to right bottom, #7ed56fbe, #28b485b0), url("../img/1.jpg");
+    background-size: cover;
     padding: 4rem; }
     .newbar__result h1 {
       text-align: center;
@@ -690,7 +692,8 @@ body {
         letter-spacing: 2px;
         line-height: 3rem; }
   .newbar__goals {
-    background-color: #ebcb52;
+    background-image: linear-gradient(to right bottom, #d8d664be, #67b428b0), url("../img/1a.jpg");
+    background-size: cover;
     padding: 3rem; }
     .newbar__goals h1 {
       text-align: center;
@@ -709,7 +712,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #d55c47;
+    background-image: linear-gradient(to right, #dd6c63be, #b4a628b0), url("../img/1b.jpg");
+    background-size: cover;
     padding: 3rem;
     text-align: center; }
     .newbar__donate h3 {
@@ -741,7 +745,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #64b1d5;
+    background-image: linear-gradient(to right bottom, #6fd5d5be, #287cb4b0), url("../img/president.jpg");
+    background-size: cover;
     padding: 5vh 4%;
     color: #fff; }
     .about__content h1 span {
@@ -817,7 +822,7 @@ body {
       color: #a3a3a3; }
 
 .newbar2 {
-  background-color: #64b1d5;
+  background-image: url(/img/bush.png);
   color: white;
   text-align: center;
   padding: 60px 8%; }
@@ -940,7 +945,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #64b1d5;
+  background-image: url(/img/bush.png);
   color: #fff; }
   .volunteer__heading {
     font-size: 50px;
@@ -959,7 +964,7 @@ body {
   flex-direction: column;
   justify-content: center;
   color: #fff;
-  background-color: #2223bc;
+  background-image: url(/img/circle-blues.png);
   padding: 5rem; }
   .subscribe__content h1 {
     line-height: 37.2px;
