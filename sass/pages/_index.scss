@@ -226,7 +226,7 @@
 ///////////// NewBar2 ///////////////
 
 .newbar2 {
-  background-image: url(/img/bush.png);
+  background-image: url(../img/bush.png);
   color: white;
   text-align: center;
   padding: 60px 8%;
@@ -397,7 +397,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url(/img/bush.png);
+  background-image: url(../img/bush.png);
   color: $color-white;
   &__heading {
     font-size: 50px;
@@ -423,7 +423,7 @@
     flex-direction: column;
     justify-content: center;
     color: $color-white;
-    background-image: url(/img/circle-blues.png);
+    background-image: url(../img/circle-blues.png);
     padding: 5rem;
     h1 {
       line-height: 37.2px;

@@ -822,7 +822,7 @@ body {
       color: #a3a3a3; }
 
 .newbar2 {
-  background-image: url(/img/bush.png);
+  background-image: url(../img/bush.png);
   color: white;
   text-align: center;
   padding: 60px 8%; }
@@ -945,7 +945,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url(/img/bush.png);
+  background-image: url(../img/bush.png);
   color: #fff; }
   .volunteer__heading {
     font-size: 50px;
@@ -964,7 +964,7 @@ body {
   flex-direction: column;
   justify-content: center;
   color: #fff;
-  background-image: url(/img/circle-blues.png);
+  background-image: url(../img/circle-blues.png);
   padding: 5rem; }
   .subscribe__content h1 {
     line-height: 37.2px;
