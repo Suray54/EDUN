@@ -377,8 +377,8 @@ body {
     line-height: 6.2rem;
     text-transform: uppercase; }
   .feature-box p {
-    font-size: 1.7rem;
-    font-weight: 700;
+    font-size: 2rem;
+    font-weight: 900;
     text-transform: uppercase;
     letter-spacing: 1.5px;
     line-height: 28.9px;
@@ -445,7 +445,7 @@ body {
   align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
-  background-color: #64b1d5;
+  background-color: #a8d8eb;
   color: #fff;
   font-size: 1.4rem;
   font-weight: 400;
@@ -745,7 +745,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: linear-gradient(to right bottom, #6fd5d5be, #287cb4b0), url("../img/president.jpg");
+    background-color: #64b1d5;
     background-size: cover;
     padding: 5vh 4%;
     color: #fff; }
@@ -822,7 +822,7 @@ body {
       color: #a3a3a3; }
 
 .newbar2 {
-  background-image: url(../img/bush.png);
+  background-color: #05044a;
   color: white;
   text-align: center;
   padding: 60px 8%; }
@@ -914,11 +914,27 @@ body {
         font-size: 1.4rem;
         line-height: 27.2px; }
 
+.volunteer {
+  padding: 8rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #05044a;
+  color: #fff; }
+  .volunteer__heading {
+    font-size: 50px;
+    width: 60%;
+    text-align: center;
+    text-transform: capitalize; }
+    .volunteer__heading span {
+      color: #f7c33f; }
+
 .message {
   padding: 10vh 8% 10vh 6%;
-  background-color: #f6f6f6; }
+  text-align: center; }
   .message__content {
-    margin: 5vh 0; }
+    margin: 10vh 0; }
     .message__content--img {
       margin: 0;
       padding: 120px;
@@ -927,7 +943,8 @@ body {
       background-position: top; }
     .message__content--letter {
       padding: 40px;
-      text-align: center; }
+      text-align: justify;
+      color: #a3a3a3; }
       .message__content--letter p {
         margin: 0;
         padding: 0;
@@ -939,21 +956,6 @@ body {
           text-decoration: underline;
           font-weight: 600; }
 
-.volunteer {
-  padding: 8rem 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-image: url(../img/bush.png);
-  color: #fff; }
-  .volunteer__heading {
-    font-size: 50px;
-    width: 60%;
-    text-align: center; }
-    .volunteer__heading span {
-      color: #f7c33f; }
-
 .subscribe__img {
   background-image: url(../img/group2.jpg);
   background-size: cover;
@@ -964,7 +966,7 @@ body {
   flex-direction: column;
   justify-content: center;
   color: #fff;
-  background-image: url(../img/circle-blues.png);
+  background-color: #05044a;
   padding: 5rem; }
   .subscribe__content h1 {
     line-height: 37.2px;

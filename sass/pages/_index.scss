@@ -112,8 +112,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: linear-gradient(to right bottom, #6fd5d5be, #287cb4b0),
-      url("../img/president.jpg");
+    background-color: $primary-color-back;
     background-size: cover;
     padding: 5vh 4%;
     color: $color-white;
@@ -226,7 +225,7 @@
 ///////////// NewBar2 ///////////////
 
 .newbar2 {
-  background-image: url(../img/bush.png);
+  background-color: $primary-color-dark;
   color: white;
   text-align: center;
   padding: 60px 8%;
@@ -356,13 +355,35 @@
   }
 }
 
+////////// volunteer ///////////
+
+.volunteer {
+  padding: 8rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: $primary-color-dark;
+  color: $color-white;
+  &__heading {
+    font-size: 50px;
+    width: 60%;
+    text-align: center;
+    text-transform: capitalize;
+    span {
+      color: $secondary-color;
+    }
+  }
+}
+
 ////////////// message //////////////
 .message {
   padding: 10vh 8% 10vh 6%;
-  background-color: $color-bg;
+
+  text-align: center;
 
   &__content {
-    margin: 5vh 0;
+    margin: 10vh 0;
     &--img {
       margin: 0;
       padding: 120px;
@@ -372,7 +393,8 @@
     }
     &--letter {
       padding: 40px;
-      text-align: center;
+      text-align: justify;
+      color: $color-write;
       p {
         span {
           color: $primary-color;
@@ -385,26 +407,6 @@
         padding: 0;
         font-size: 1.4rem;
       }
-    }
-  }
-}
-
-////////// volunteer ///////////
-
-.volunteer {
-  padding: 8rem 0;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-image: url(../img/bush.png);
-  color: $color-white;
-  &__heading {
-    font-size: 50px;
-    width: 60%;
-    text-align: center;
-    span {
-      color: $secondary-color;
     }
   }
 }
@@ -423,7 +425,7 @@
     flex-direction: column;
     justify-content: center;
     color: $color-white;
-    background-image: url(../img/circle-blues.png);
+    background-color: $primary-color-dark;
     padding: 5rem;
     h1 {
       line-height: 37.2px;
