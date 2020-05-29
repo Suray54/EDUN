@@ -48,6 +48,9 @@
     outline: none;
     margin-top: 6px;
     box-shadow: 2px 2px 5px rgba(128, 128, 128, 0.479);
+    &:focus {
+      outline: none;
+    }
   }
   &__btn2 {
     border: 1px solid $color-white;
@@ -64,6 +67,9 @@
     &:hover {
       background-color: $secondary-color;
       border-color: transparent;
+    }
+    &:focus {
+      outline: none;
     }
   }
 }

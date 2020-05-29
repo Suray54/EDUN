@@ -270,6 +270,8 @@ body {
     outline: none;
     margin-top: 6px;
     box-shadow: 2px 2px 5px rgba(128, 128, 128, 0.479); }
+    .donate__btn:focus {
+      outline: none; }
   .donate__btn2 {
     border: 1px solid #fff;
     color: #fff;
@@ -285,6 +287,8 @@ body {
     .donate__btn2:hover {
       background-color: #f7c33f;
       border-color: transparent; }
+    .donate__btn2:focus {
+      outline: none; }
 
 .carousel-caption1 {
   position: absolute;
@@ -578,7 +582,8 @@ body {
       border-bottom: 3px solid #4c91bb;
       position: absolute;
       transition: transform 0.5s ease-in-out;
-      transform: scale(0); }
+      transform: scale(0);
+      width: 0%; }
     .navbar-nav li a:hover {
       color: #4c91bb; }
       .navbar-nav li a:hover::before {
