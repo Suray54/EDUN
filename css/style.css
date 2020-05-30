@@ -1105,4 +1105,14 @@ body {
     line-height: 28px;
     color: #898989; }
 
+.section-cover {
+  height: 55vh;
+  position: relative; }
+
+.section--text {
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  transform: translate(-50%, -50%); }
+
 /*# sourceMappingURL=style.css.map */
