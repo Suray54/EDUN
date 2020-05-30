@@ -939,7 +939,7 @@ body {
   padding: 10vh 8% 10vh 6%;
   text-align: center; }
   .message__content {
-    margin: 10vh 0; }
+    margin-top: 10vh; }
     .message__content--img {
       margin: 0;
       padding: 120px;
@@ -948,9 +948,9 @@ body {
       background-position: top; }
     .message__content--letter {
       padding: 40px;
-      text-align: justify;
       color: #a3a3a3; }
       .message__content--letter p {
+        text-align: justify;
         margin: 0;
         padding: 0;
         font-size: 1.4rem; }
@@ -958,8 +958,26 @@ body {
           color: #4c91bb;
           text-transform: uppercase;
           display: block;
+          text-align: center;
           text-decoration: underline;
           font-weight: 600; }
+
+.testimonials {
+  padding: 15vh 5%;
+  text-align: center; }
+  .testimonials .owl-carousel {
+    padding: 15vh 0;
+    color: #a3a3a3;
+    text-align: justify;
+    font-size: 1.4rem; }
+    .testimonials .owl-carousel .slide {
+      display: flex;
+      width: 100%;
+      padding-right: 20px; }
+      .testimonials .owl-carousel .slide img {
+        width: 8rem;
+        height: 8rem;
+        margin-right: 5rem; }
 
 .subscribe__img {
   background-image: url(../img/group2.jpg);

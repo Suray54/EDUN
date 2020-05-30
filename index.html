@@ -13,6 +13,11 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- /bootstrap -->
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+    <script src="owlcarousel/jquery.min.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
     <!-- css Aos -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- /Aos -->
@@ -612,17 +617,6 @@
 
     </div>
     <!-- News End -->
-
-
-    <!-- Volunteer Start -->
-    <div class="container-fluid volunteer">
-        <h1 class=" volunteer__heading">
-            Lets make nepal better <span>together</span>
-        </h1>
-        <a href="#" class="btn-vol ">Become a volunteer</a>
-    </div>
-    <!-- Volunteer End -->
-
     <!-- Message Start -->
     <div class="container-fluid message">
         <h1 class=" heading-primary">
@@ -635,7 +629,6 @@
         </h1>
         <div class="row message__content">
             <div class="col-lg-6 message__content--img">
-
             </div>
             <div class="col-lg-6 message__content--letter ">
 
@@ -674,17 +667,81 @@
                     <br>
                     Yours,
                     <br>
-                    Samundra</p>
-
-
+                    Samundra
+                </p>
             </div>
         </div>
-
     </div>
+
     <!-- Message end -->
 
 
+    <!-- Volunteer Start -->
+    <div class="container-fluid volunteer">
+        <h1 class=" volunteer__heading">
+            Lets make nepal better <span>together</span>
+        </h1>
+        <a href="#" class="btn-vol ">Become a volunteer</a>
+    </div>
+    <!-- Volunteer End -->
 
+
+
+
+    <!-- Testimonials -->
+    <div class="testimonials">
+        <h1 class=" heading-primary">
+            <span class="heading-primary--main">
+                What people say about Us?
+            </span>
+            <span class="heading-primary--sup">
+                the <span> Testimonials </span>
+            </span>
+        </h1>
+        <div class="owl-carousel owl-theme">
+            <div class="slide">
+                <img src="img/person.png" alt="">
+                <blockquote>
+                    <p><i class="fa fa-quote-left"></i>
+                        'Nepal mai Awasar Chha'. It was confusion and the worst part was I knew there was more to come.
+                        And that’s when EduN came to us with such an insightful program that led me to making one of the
+                        most crucial decisions in my life.” Opportunity lies here in Nepal, you just have to have an eye
+                        for it.” This changed my way of understanding what lied in this land. I am pursueing my
+                        undergraduate degree here in my country to understand more, to do whatever I do here in my
+                        country, Nepal. Thank you Educate Nepal Initiative. Thank you to the team. </p>
+                    <p><cite>&mdash; Jean Smith</cite></p>
+                </blockquote>
+            </div>
+            <div class="slide">
+                <img src="img/person.png" alt="">
+                <blockquote>
+                    <p><i class="fa fa-quote-left"></i>
+                        EduN not only stands to exist but to make a change. Changes that we wanted to see in a place
+                        we aspire to stand. Not only did we influence and supported youths and dynamic individuals, but
+                        in the verge of making a change, we were so occupied that we did not realize the changes we put
+                        on ourselves. Edun is not just an organization but a platform to those who wish. It is all about
+                        the perspective. I wish you best wishes, Educate Nepal Initiative.
+                    </p>
+                    <p><cite>&mdash; Carl Spencer</cite></p>
+                </blockquote>
+            </div>
+            <div class="slide">
+                <img src="img/person.png" alt="">
+                <blockquote>
+                    <p> <i class="fa fa-quote-left"></i>
+                        Usually, it is considered luck to see something that you don’t usually see. But I would want
+                        to define this experience as something else. Getting to see the level of dedication, enthusiasm,
+                        unity, respect and professionalism from these young and dynamic individuals was something else.
+                        Yes, it was rare. Maybe the reason it was so inspirational. I wish the team best of the wishes
+                        in the coming future.
+                    </p>
+                    <p><cite>&mdash; Ryan Peters</cite></p>
+                </blockquote>
+            </div>
+        </div>
+    </div>
+
+    <!-- Testimonials End -->
 
     <!-- subscribe start -->
     <div class="container-fluid subscribe">
@@ -704,6 +761,8 @@
         </div>
     </div>
     <!-- subscribe end -->
+
+
 
 
     <!-- Footer Part -->
@@ -806,8 +865,49 @@
             duration: 600,
             delay: 100,
         });
+    </script>
+
+
+    <script>
+        var owl = $('.owl-carousel');
+        owl.owlCarousel({
+            loop: true,
+            //nav: true,
+            //dots: true,
+            nav: false,
+            dots: true,
+            margin: 10,
+            autoplay: true,
+            autoplayTimeout: 8000,
+            autoplayHoverPause: true,
+            autoHeight: true,
+            responsive: {
+                0: {
+                    items: 1,
+
+                },
+                600: {
+                    items: 1,
+
+                },
+                1000: {
+                    items: 2,
+
+                }
+            }
+
+        });
+        owl.on('mousewheel', '.owl-stage', function (e) {
+            if (e.deltaY > 0) {
+                owl.trigger('next.owl');
+            } else {
+                owl.trigger('prev.owl');
+            }
+            e.preventDefault();
+        });
 
     </script>
+
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
