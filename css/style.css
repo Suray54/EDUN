@@ -87,7 +87,7 @@ body {
   letter-spacing: 0.5rem;
   cursor: pointer; }
   .heading-primary--sup span {
-    color: #4c91bb; }
+    color: #f7c33f; }
 
 .heading-secondary--main {
   text-transform: uppercase;
@@ -232,7 +232,7 @@ body {
 .btn-vol:link, .btn-vol:visited {
   border: none;
   color: #fff;
-  background-color: #4c91bb;
+  background-color: #f7c33f;
   border-radius: 5px;
   padding: 18px 28px;
   line-height: 12px;
@@ -302,7 +302,7 @@ body {
     margin-top: 6px;
     margin-left: 3rem; }
     .donate__btn2:hover {
-      background-color: #4c91bb;
+      background-color: #f7c33f;
       border-color: transparent; }
     .donate__btn2:focus {
       outline: none; }
@@ -316,7 +316,7 @@ body {
     .carousel-caption1 {
       top: 15%; } }
   .carousel-caption1 span {
-    color: #64b1d5; }
+    color: #f7c33f; }
   .carousel-caption1 .red {
     font-weight: 700;
     font-size: 50px;
@@ -352,7 +352,7 @@ body {
     .carousel-caption2 {
       top: 15%; } }
   .carousel-caption2 span {
-    color: #64b1d5; }
+    color: #f7c33f; }
   .carousel-caption2 .red {
     font-weight: 700;
     font-size: 50px;
@@ -390,7 +390,7 @@ body {
         border: none; } }
   .feature-box__icon {
     font-size: 5rem;
-    color: #4c91bb; }
+    color: #f7c33f; }
   .feature-box__heading {
     margin-top: 2rem;
     font-size: 4rem;
@@ -403,7 +403,7 @@ body {
     text-transform: uppercase;
     letter-spacing: 1.5px;
     line-height: 28.9px;
-    color: #4c91bb;
+    color: #f7c33f;
     margin: 0; }
 
 .member-box {
@@ -438,7 +438,7 @@ body {
     font-size: 2.4rem;
     font-weight: 700;
     text-transform: uppercase;
-    color: #4c91bb; }
+    color: #f7c33f; }
   .member-box p {
     font-size: 2rem;
     line-height: 28.9px;
@@ -459,7 +459,7 @@ body {
       margin: 0; }
     .member-box__social-icons i {
       font-size: 1.8rem;
-      color: #4c91bb; }
+      color: #f7c33f; }
 
 .top {
   display: flex;
@@ -509,7 +509,7 @@ body {
           color: #4c91bb;
           font-size: 1.6rem; }
           .footer__content--1-icons i:hover {
-            color: #4c91bb; }
+            color: #f7c33f; }
         .footer__content--1-icons li {
           margin-right: 20px; }
     .footer__content--2 {
@@ -537,7 +537,7 @@ body {
           text-transform: capitalize;
           border-bottom: 0.5px dotted #fff; }
           .footer__content--3 ul li a:hover {
-            color: #4c91bb; }
+            color: #f7c33f; }
     .footer__content--4 {
       margin-top: 2rem; }
       .footer__content--4 h3 {
@@ -555,7 +555,7 @@ body {
           text-transform: capitalize;
           border-bottom: 0.5px dotted #fff; }
           .footer__content--4 ul li a:hover {
-            color: #4c91bb; }
+            color: #f7c33f; }
 
 .footer__bottom {
   background-color: #000;
@@ -609,7 +609,7 @@ body {
   .navbar .donates__btn {
     border: none;
     color: #fff;
-    background-color: #4c91bb;
+    background-color: #f7c33f;
     border-radius: 5px;
     padding: 12px 20px;
     line-height: 12px;
@@ -792,7 +792,7 @@ body {
         display: block;
         margin-top: 5px; }
         .about__write p span a:hover {
-          color: #4c91bb; }
+          color: #f7c33f; }
 
 .cause {
   padding: 15vh 12%;
@@ -819,9 +819,9 @@ body {
         .cause .card .card-bg:hover .card-body {
           color: #fff; }
         .cause .card .card-bg:hover .card-body::before {
-          background-color: #4c91bb; }
+          background-color: #f7c33f; }
         .cause .card .card-bg:hover .btn-read {
-          background-color: #4c91bb; }
+          background-color: #f7c33f; }
     .cause .card img {
       padding: 15px; }
     .cause .card-body {
@@ -950,7 +950,7 @@ body {
     text-align: center;
     text-transform: capitalize; }
     .volunteer__heading span {
-      color: #4c91bb; }
+      color: #f7c33f; }
 
 .message {
   padding: 10vh 8% 10vh 6%;
@@ -1042,7 +1042,7 @@ body {
     font-size: 1.6rem;
     font-weight: 700;
     text-transform: uppercase;
-    background-color: #4c91bb;
+    background-color: #f7c33f;
     color: #fff;
     border: none;
     outline: none;
@@ -1114,5 +1114,24 @@ body {
   top: 50%;
   left: 55%;
   transform: translate(-50%, -50%); }
+
+.heading-primary--main {
+  text-transform: uppercase;
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  cursor: pointer;
+  color: #64b1d5; }
+.heading-primary--sup {
+  text-transform: capitalize;
+  margin-top: 1rem;
+  display: block;
+  font-size: 4rem;
+  font-weight: 600;
+  letter-spacing: 0.5rem;
+  cursor: pointer; }
+  .heading-primary--sup span {
+    color: #f7c33f; }
 
 /*# sourceMappingURL=style.css.map */

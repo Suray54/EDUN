@@ -9,3 +9,27 @@
   left: 55%;
   transform: translate(-50%, -50%);
 }
+.heading-primary {
+  &--main {
+    text-transform: uppercase;
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    cursor: pointer;
+    color: $primary-color-back;
+  }
+
+  &--sup {
+    text-transform: capitalize;
+    margin-top: 1rem;
+    display: block;
+    font-size: 4rem;
+    font-weight: 600;
+    letter-spacing: 0.5rem;
+    cursor: pointer;
+    span {
+      color: $secondary-color;
+    }
+  }
+}
