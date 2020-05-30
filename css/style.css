@@ -974,6 +974,12 @@ body {
       display: flex;
       width: 100%;
       padding-right: 20px; }
+      @media only screen and (max-width: 600px) {
+        .testimonials .owl-carousel .slide {
+          display: flex;
+          flex-direction: column; }
+          .testimonials .owl-carousel .slide p {
+            margin-top: 20px; } }
       .testimonials .owl-carousel .slide img {
         width: 8rem;
         height: 8rem;

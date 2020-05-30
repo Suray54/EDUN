@@ -421,6 +421,13 @@
     text-align: justify;
     font-size: 1.4rem;
     & .slide {
+      @media only screen and (max-width: 600px) {
+        display: flex;
+        flex-direction: column;
+        p {
+          margin-top: 20px;
+        }
+      }
       display: flex;
       img {
         width: 8rem;
