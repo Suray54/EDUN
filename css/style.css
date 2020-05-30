@@ -963,10 +963,10 @@ body {
           font-weight: 600; }
 
 .testimonials {
-  padding: 15vh 5%;
+  padding: 15vh 5% 5vh 5%;
   text-align: center; }
   .testimonials .owl-carousel {
-    padding: 15vh 0;
+    padding: 15vh 0 10vh 0;
     color: #a3a3a3;
     text-align: justify;
     font-size: 1.4rem; }

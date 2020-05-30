@@ -413,10 +413,10 @@
 //////////////// Testimonials ///////////////@extend
 
 .testimonials {
-  padding: 15vh 5%;
+  padding: 15vh 5% 5vh 5%;
   text-align: center;
   & .owl-carousel {
-    padding: 15vh 0;
+    padding: 15vh 0 10vh 0;
     color: $color-write;
     text-align: justify;
     font-size: 1.4rem;
