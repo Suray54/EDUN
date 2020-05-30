@@ -13,7 +13,7 @@ body {
     font-weight: 600;
     letter-spacing: 0.1rem;
     cursor: pointer;
-    color: $primary-color;
+    color: $primary-color-back;
   }
 
   &--sup {
@@ -27,5 +27,27 @@ body {
     span {
       color: $secondary-color;
     }
+  }
+}
+
+.heading-secondary {
+  &--main {
+    text-transform: uppercase;
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    cursor: pointer;
+    color: $color-white-2;
+  }
+
+  &--sup {
+    text-transform: capitalize;
+    display: block;
+    color: $color-white;
+    font-size: 4rem;
+    font-weight: 600;
+    letter-spacing: 0.5rem;
+    cursor: pointer;
   }
 }

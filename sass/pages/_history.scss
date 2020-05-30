@@ -1,0 +1,25 @@
+/////////////////// bar ///////////////////
+.bar {
+  margin: 0;
+  padding: 6rem;
+  background-image: linear-gradient(to right bottom, #4c90bbb2, #64b1d5a2),
+    url(../img/group2.jpg);
+  background-size: cover;
+  background-position: top;
+}
+
+.content {
+  padding: 10vh 0%;
+  h1 {
+    font-size: 40px;
+    line-height: 70px;
+    font-weight: 700;
+  }
+
+  p {
+    margin-top: 2rem;
+    font-size: 1.4rem;
+    text-align: justify;
+    color: $color-write;
+  }
+}
