@@ -1115,7 +1115,7 @@ body {
   left: 55%;
   transform: translate(-50%, -50%); }
 
-.heading-primary--main {
+.heading-primary-1--main {
   text-transform: uppercase;
   display: block;
   font-size: 1.6rem;
@@ -1123,7 +1123,10 @@ body {
   letter-spacing: 0.1rem;
   cursor: pointer;
   color: #64b1d5; }
-.heading-primary--sup {
+  @media only screen and (max-width: 500px) {
+    .heading-primary-1--main {
+      font-size: 1.2rem; } }
+.heading-primary-1--sup {
   text-transform: capitalize;
   margin-top: 1rem;
   display: block;
@@ -1131,7 +1134,10 @@ body {
   font-weight: 600;
   letter-spacing: 0.5rem;
   cursor: pointer; }
-  .heading-primary--sup span {
+  @media only screen and (max-width: 500px) {
+    .heading-primary-1--sup {
+      font-size: 2rem; } }
+  .heading-primary-1--sup span {
     color: #f7c33f; }
 
 /*# sourceMappingURL=style.css.map */
