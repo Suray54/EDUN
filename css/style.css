@@ -1060,11 +1060,49 @@ body {
   .content h1 {
     font-size: 40px;
     line-height: 70px;
-    font-weight: 700; }
+    font-weight: 700;
+    position: relative; }
+    .content h1::before {
+      content: "";
+      bottom: 0;
+      left: 0;
+      border-bottom: 3px solid #4c91bb;
+      position: absolute;
+      width: 70px; }
   .content p {
     margin-top: 2rem;
     font-size: 1.4rem;
     text-align: justify;
+    color: #898989; }
+
+.staffs {
+  padding: 0vh 5% 10vh 5%; }
+  .staffs__content .social-icons {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center; }
+    .staffs__content .social-icons li {
+      margin-right: 20px; }
+  .staffs__content .heading-tertiary--main {
+    display: block;
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-top: 30px;
+    color: #4c91bb; }
+  .staffs__content .heading-tertiary--sup {
+    display: block;
+    margin-top: 10px;
+    color: #898989;
+    display: block;
+    font-size: 1.4rem;
+    font-weight: 600; }
+  .staffs__content hr {
+    width: 10%;
+    border: 2px solid #4c91bb; }
+  .staffs__content p {
+    font-size: 1.4rem;
+    line-height: 28px;
     color: #898989; }
 
 /*# sourceMappingURL=style.css.map */

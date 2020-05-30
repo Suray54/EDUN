@@ -86,7 +86,6 @@
                     </a>
                     <div class="dropdown-menu">
                         <a class="dropdown-item" href="history.html">Our history</a>
-                        <a class="dropdown-item" href="mission.html">Mission & Visions</a>
                         <a class="dropdown-item" href="challenges.html">Our Challenges</a>
                         <a class="dropdown-item" href="approach.html">Our Approach</a>
                         <a class="dropdown-item" href="staff.html">Our Staffs</a>
@@ -94,27 +93,17 @@
 
                     </div>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-                        Our Works
-                    </a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="">Quality Education</a>
-                        <a class="dropdown-item" href="">Learning Life skills</a>
-                        <a class="dropdown-item" href="">Gender and social quality</a>
-                        <a class="dropdown-item" href="">Child protection</a>
-                        <a class="dropdown-item" href="">Gallery and memories</a>
-                        <a class="dropdown-item" href="">Successful stories</a>
-                    </div>
+                <li class="nav-item">
+                    <a class="nav-link" href="event.html">Events</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="">Events</a>
+                    <a class="nav-link" href="gallery.html">Gallery</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="">Membership</a>
+                    <a class="nav-link" href="membership.html">Membership</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="">Contact us</a>
+                    <a class="nav-link" href="contact.html">Contact us</a>
                 </li>
                 <li>
                     <div class="donates">
@@ -261,21 +250,20 @@
             </div>
             <div class="col-lg-2  col-md-6  footer__content--3">
                 <h3>Quick links</h3>
-
                 <ul class="u-margin-top-middle">
-                    <li><i class="fa fa-angle-right"></i> <a href=""> our history</a></li>
-                    <li><i class="fa fa-angle-right"></i> <a href=""> Events</a></li>
-                    <li><i class="fa fa-angle-right"></i> <a href=""> membership</a></li>
-                    <li><i class="fa fa-angle-right"></i> <a href=""> contact us</a></li>
+                    <li><i class="fa fa-angle-right"></i> <a href="history.html"> About Us</a></li>
+                    <li><i class="fa fa-angle-right"></i> <a href="event.html"> Events</a></li>
+                    <li><i class="fa fa-angle-right"></i> <a href="membership.html"> membership</a></li>
+                    <li><i class="fa fa-angle-right"></i> <a href="contact.html">contact us</a></li>
                 </ul>
             </div>
             <div class="col-lg-2 col-md-6   footer__content--4">
                 <h3>Quick links</h3>
                 <ul class="u-margin-top-middle">
-                    <li><i class="fa fa-angle-right"></i> <a href=""> our mission</a></li>
-                    <li><i class="fa fa-angle-right"></i> <a href=""> our challenges</a></li>
-                    <li><i class="fa fa-angle-right"></i> <a href=""> our team</a></li>
-                    <li><i class="fa fa-angle-right"></i> <a href=""> partners</a></li>
+                    <li><i class="fa fa-angle-right"></i> <a href="approach.html"> our approach</a></li>
+                    <li><i class="fa fa-angle-right"></i> <a href="challenges.html"> our challenges</a></li>
+                    <li><i class="fa fa-angle-right"></i> <a href="staff.html"> our team</a></li>
+                    <li><i class="fa fa-angle-right"></i> <a href="partner.html"> partners</a></li>
                 </ul>
             </div>
         </div>
@@ -294,19 +282,6 @@
             } else {
                 $('.navbar').removeClass('affix');
             }
-        });
-
-        $(window).scroll(function () {
-            if ($(document).scrollTop() > 100) {
-                $('.icon-bar').addClass('sticky');
-            } else {
-                $('.icon-bar').removeClass('sticky');
-            }
-        });
-
-        $('#top').on("click", function () {
-            $('html, body').animate({ scrollTop: 0 }, 'slow');
-            return false;
         });
 
         AOS.init({
