@@ -42,6 +42,10 @@ body {
   }
 
   &--sup {
+    @media only screen and (max-width: 600px) {
+      font-size: 2rem;
+      text-align: center;
+    }
     text-transform: capitalize;
     display: block;
     color: $color-white;
@@ -51,5 +55,3 @@ body {
     cursor: pointer;
   }
 }
-
-
