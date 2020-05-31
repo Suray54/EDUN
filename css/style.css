@@ -626,17 +626,6 @@ body {
     @media only screen and (max-width: 950px) {
       .navbar-nav li a {
         border-bottom: 2px solid var(--color-grey-light); } }
-    .navbar-nav li a.active {
-      color: #64b1d5; }
-    .navbar-nav li a::before {
-      content: "";
-      bottom: 0;
-      left: 0;
-      border-bottom: 3px solid #64b1d5;
-      position: absolute;
-      transition: transform 0.5s ease-in-out;
-      transform: scale(0);
-      width: 0%; }
     .navbar-nav li a:hover {
       color: #64b1d5; }
       .navbar-nav li a:hover::before {
@@ -1086,7 +1075,7 @@ body {
 
 .bar {
   margin: 0;
-  padding: 6rem;
+  padding: 12rem;
   background-image: linear-gradient(to right bottom, #4c90bbb2, #64b1d5a2), url(../img/group2.jpg);
   background-size: cover;
   background-position: top; }
@@ -1225,5 +1214,57 @@ body {
   .donor p {
     font-size: 1.6rem;
     color: #898989; }
+
+.contact {
+  padding: 15vh 5%; }
+  .contact h1 {
+    font-size: 40px;
+    line-height: 70px;
+    font-weight: 700;
+    position: relative; }
+    .contact h1::before {
+      content: "";
+      bottom: 0;
+      left: 0;
+      border-bottom: 3px solid #64b1d5;
+      position: absolute;
+      width: 70px; }
+  .contact h2 {
+    margin-top: 4rem;
+    font-size: 30px;
+    line-height: 50px;
+    font-weight: 600; }
+  .contact ul {
+    margin-top: 2rem;
+    color: #898989; }
+    .contact ul li {
+      font-size: 16px;
+      line-height: 30px;
+      letter-spacing: 1px; }
+  .contact__form input[type="text"],
+  .contact__form select,
+  .contact__form textarea {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 6px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+    box-sizing: border-box; }
+  .contact__form--btn {
+    border: none;
+    color: #fff;
+    background-color: #4c91bb;
+    border-radius: 5px;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    line-height: 22.85px;
+    font-size: 1.6rem;
+    font-weight: 700;
+    outline: none;
+    margin-top: 6px;
+    box-shadow: 2px 2px 5px rgba(128, 128, 128, 0.479); }
+    .contact__form--btn:focus {
+      outline: none; }
 
 /*# sourceMappingURL=style.css.map */
