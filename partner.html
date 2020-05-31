@@ -16,6 +16,7 @@
 
     <!-- css Aos -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- /Aos -->
     <link rel="shortcut icon" type="image/png" href="img/logo.png">
     <link rel="stylesheet" href="css/style.css">
@@ -117,7 +118,7 @@
 
     <!-- bar start -->
     <div class="container-fluid bar">
-        <h1 class=" heading-secondary u-text-centre  ">
+        <h1 class=" heading-secondary u-text-centre  " data-aos="fade-up">
             <span class="heading-secondary--sup">
                 who Help us?
             </span>
@@ -130,7 +131,7 @@
 
     <!-- Partner content -->
     <div class="partner container u-margin-top-middle">
-        <h1 class=" heading-primary u-text-centre margin">
+        <h1 class=" heading-primary u-text-centre margin" data-aos="fade-up">
             <span class="heading-primary--main">
                 who is with us?
             </span>
@@ -138,9 +139,10 @@
                 Our <span> Partners </span>
             </span>
         </h1>
-        <p class="u-text-centre">EDUN has partnered with diverse organizations. Our partners are as following:</p>
+        <p data-aos="fade-up" class="u-text-centre">EDUN has partnered with diverse organizations. Our partners are as
+            following:</p>
 
-        <div class="partner__img u-margin-top-big">
+        <div class="partner__img u-margin-top-big" data-aos="fade-up">
             <img src="img/logo.png" alt="" width="150px" height="auto">
             <img src="img/logo.png" alt="" width="150px" height="auto">
             <img src="img/logo.png" alt="" width="150px" height="auto">
@@ -157,7 +159,7 @@
         </div>
     </div>
     <div class="donor container">
-        <h1 class=" heading-primary u-text-centre margin">
+        <h1 class=" heading-primary u-text-centre margin" data-aos="fade-up">
             <span class="heading-primary--main">
                 how help us?
             </span>
@@ -165,9 +167,10 @@
                 Our <span> donors</span>
             </span>
         </h1>
-        <p class="u-text-centre">EDUN has partnered with diverse organizations. Our partners are as following:</p>
+        <p class="u-text-centre" data-aos="fade-up">EDUN has partnered with diverse organizations. Our partners are as
+            following:</p>
 
-        <div class="row u-margin-top-big">
+        <div class="row u-margin-top-big" data-aos="fade-up">
             <div class="col-lg-4 col-md-6 staffs__content">
                 <div class="div">
                     <img src="img/person1.jpg" alt="" width="100%">
@@ -317,14 +320,15 @@
     <!-- subscribe start -->
     <div class="container-fluid subscribe">
         <div class="row">
-            <div class="col-md-6 subscribe__img">
+            <div class="col-md-6 subscribe__img" data-aos="fade-right">
             </div>
-            <div class="col-md-6 subscribe__content">
-                <h1>
+            <div class="col-md-6 subscribe__content" data-aos="fade-up">
+                <h1 data-aos="fade-up">
                     Newsletter
                 </h1>
-                <p>Sign up for our monthly newsletter to get the latest news, volunteer opportunities,</p>
-                <form class="subscribe__content--form u-margin-top-small">
+                <p data-aos="fade-up">Sign up for our monthly newsletter to get the latest news, volunteer
+                    opportunities,</p>
+                <form class="subscribe__content--form u-margin-top-small" data-aos="fade-up">
                     <input type="text" placeholder="Your emaill address" name="search">
                     <button type="submit">Subsribe</button>
                 </form>
@@ -335,7 +339,7 @@
     <!-- Footer Part -->
     <footer class="footer container-fluid">
         <div class="row footer__content">
-            <div class="col-lg-4 col-md-6 footer__content--1">
+            <div class="col-lg-4 col-md-6 footer__content--1" data-aos="fade-up">
                 <img src="img/logo.png" alt="logo">
                 <p class="u-margin-top-small">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit sed
                     neque
@@ -366,7 +370,7 @@
                 </ul>
 
             </div>
-            <div class="col-lg-4 col-md-6   footer__content--2">
+            <div class="col-lg-4 col-md-6   footer__content--2" data-aos="fade-up">
                 <h3>Contact info</h3>
 
                 <ul class="u-margin-top-middle">
@@ -379,7 +383,7 @@
                 </ul>
 
             </div>
-            <div class="col-lg-2  col-md-6  footer__content--3">
+            <div class="col-lg-2  col-md-6  footer__content--3" data-aos="fade-up">
                 <h3>Quick links</h3>
                 <ul class="u-margin-top-middle">
                     <li><i class="fa fa-angle-right"></i> <a href="history.html"> About Us</a></li>
@@ -388,7 +392,7 @@
                     <li><i class="fa fa-angle-right"></i> <a href="contact.html">contact us</a></li>
                 </ul>
             </div>
-            <div class="col-lg-2 col-md-6   footer__content--4">
+            <div class="col-lg-2 col-md-6   footer__content--4" data-aos="fade-up">
                 <h3>Quick links</h3>
                 <ul class="u-margin-top-middle">
                     <li><i class="fa fa-angle-right"></i> <a href="approach.html"> our approach</a></li>
@@ -407,6 +411,10 @@
     <!-- Footer Part end -->
 
     <script>
+        AOS.init({
+            duration: 600,
+            delay: 100,
+        });
         $(window).scroll(function () {
             if ($(document).scrollTop() > 30) {
                 $('.navbar').addClass('affix');
@@ -415,13 +423,9 @@
             }
         });
 
-        AOS.init({
-            duration: 600,
-            delay: 100,
-        });
+
     </script>
 
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>

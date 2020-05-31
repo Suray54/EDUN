@@ -16,6 +16,7 @@
 
     <!-- css Aos -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- /Aos -->
     <link rel="shortcut icon" type="image/png" href="img/logo.png">
     <link rel="stylesheet" href="css/style.css">
@@ -119,14 +120,15 @@
     <!-- subscribe start -->
     <div class="container-fluid subscribe">
         <div class="row">
-            <div class="col-md-6 subscribe__img">
+            <div class="col-md-6 subscribe__img" data-aos="fade-right">
             </div>
             <div class="col-md-6 subscribe__content">
-                <h1>
+                <h1 data-aos="fade-up">
                     Newsletter
                 </h1>
-                <p>Sign up for our monthly newsletter to get the latest news, volunteer opportunities,</p>
-                <form class="subscribe__content--form u-margin-top-small">
+                <p data-aos="fade-up">Sign up for our monthly newsletter to get the latest news, volunteer
+                    opportunities,</p>
+                <form class="subscribe__content--form u-margin-top-small" data-aos="fade-up">
                     <input type="text" placeholder="Your emaill address" name="search">
                     <button type="submit">Subsribe</button>
                 </form>
@@ -137,7 +139,7 @@
     <!-- Footer Part -->
     <footer class="footer container-fluid">
         <div class="row footer__content">
-            <div class="col-lg-4 col-md-6 footer__content--1">
+            <div class="col-lg-4 col-md-6 footer__content--1" data-aos="fade-up">
                 <img src="img/logo.png" alt="logo">
                 <p class="u-margin-top-small">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit sed neque
                     fugiat quibusdam recusandae
@@ -167,7 +169,7 @@
                 </ul>
 
             </div>
-            <div class="col-lg-4 col-md-6   footer__content--2">
+            <div class="col-lg-4 col-md-6   footer__content--2" data-aos="fade-up">
                 <h3>Contact info</h3>
 
                 <ul class="u-margin-top-middle">
@@ -180,7 +182,7 @@
                 </ul>
 
             </div>
-            <div class="col-lg-2  col-md-6  footer__content--3">
+            <div class="col-lg-2  col-md-6  footer__content--3" data-aos="fade-up">
                 <h3>Quick links</h3>
                 <ul class="u-margin-top-middle">
                     <li><i class="fa fa-angle-right"></i> <a href="history.html"> About Us</a></li>
@@ -189,7 +191,7 @@
                     <li><i class="fa fa-angle-right"></i> <a href="contact.html">contact us</a></li>
                 </ul>
             </div>
-            <div class="col-lg-2 col-md-6   footer__content--4">
+            <div class="col-lg-2 col-md-6   footer__content--4" data-aos="fade-up">
                 <h3>Quick links</h3>
                 <ul class="u-margin-top-middle">
                     <li><i class="fa fa-angle-right"></i> <a href="approach.html"> our approach</a></li>
@@ -208,6 +210,11 @@
     <!-- Footer Part end -->
 
     <script>
+        AOS.init({
+            duration: 600,
+            delay: 100,
+            once: true
+        });
         $(window).scroll(function () {
             if ($(document).scrollTop() > 30) {
                 $('.navbar').addClass('affix');
@@ -215,15 +222,9 @@
                 $('.navbar').removeClass('affix');
             }
         });
-
-
-        AOS.init({
-            duration: 600,
-            delay: 100,
-        });
     </script>
 
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
