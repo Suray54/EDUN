@@ -1,0 +1,43 @@
+//gallery
+
+#aw-gallery {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+#aw-gallery li {
+  position: relative;
+  overflow: hidden;
+  width: 25%;
+  cursor: pointer;
+}
+
+#aw-gallery li img {
+  display: block;
+  width: 100%;
+  transition: all 0.2s ease;
+}
+
+#aw-gallery li:hover img {
+  transform: scale(1.2);
+}
+
+#aw-gallery li:after {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  transition: all ease;
+}
+
+#aw-gallery li:hover:after {
+  width: 0;
+  height: 0;
+}

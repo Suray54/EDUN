@@ -1,0 +1,30 @@
+.partner {
+  padding: 10vh 0;
+  p {
+    margin-top: 4rem;
+    font-size: 1.6rem;
+    text-align: center;
+    color: $color-write;
+  }
+  &__img {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      transition: 0.3s;
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+}
+
+.donor {
+  padding: 5vh 5% 20vh 5%;
+  p {
+    font-size: 1.6rem;
+    color: $color-write;
+  }
+}
