@@ -1,0 +1,25 @@
+.membership {
+  padding: 5vh 5%;
+  h1 {
+    font-size: 40px;
+    line-height: 70px;
+    font-weight: 700;
+    position: relative;
+
+    &::before {
+      content: "";
+      bottom: 0;
+      left: 0;
+      border-bottom: 3px solid $primary-color;
+      position: absolute;
+      width: 70px;
+    }
+  }
+  &__logo {
+    width: 20rem;
+    margin-left: 20px;
+  }
+  &__form {
+    padding: 5vh 5%;
+  }
+}
