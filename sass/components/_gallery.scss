@@ -9,6 +9,12 @@
 }
 
 #aw-gallery li {
+  @media screen and (max-width: 1000px) {
+    width: 50%;
+  }
+  @media screen and (max-width: 700px) {
+    width: 100%;
+  }
   position: relative;
   overflow: hidden;
   width: 25%;

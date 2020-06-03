@@ -493,6 +493,12 @@ body {
   overflow: hidden;
   width: 25%;
   cursor: pointer; }
+  @media screen and (max-width: 1000px) {
+    #aw-gallery li {
+      width: 50%; } }
+  @media screen and (max-width: 700px) {
+    #aw-gallery li {
+      width: 100%; } }
 
 #aw-gallery li img {
   display: block;
