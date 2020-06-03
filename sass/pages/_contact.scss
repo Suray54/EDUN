@@ -28,6 +28,13 @@
       font-size: 16px;
       line-height: 30px;
       letter-spacing: 1px;
+      a {
+        text-decoration: none;
+        color: $color-write;
+        &:hover {
+          color: $secondary-color;
+        }
+      }
     }
   }
 

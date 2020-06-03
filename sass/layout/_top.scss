@@ -3,7 +3,6 @@
   align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
-
   background-color: $primary-color-light;
   color: $color-white;
   font-size: 1.4rem;
@@ -15,9 +14,11 @@
     font-size: 1.6rem;
   }
 
-  &__welcome {
-    @media only screen and (min-width: 1000px) {
-      margin-right: 16rem;
+  a {
+    &:link,
+    &:visited {
+      color: $color-white;
+      text-decoration: none;
     }
   }
 

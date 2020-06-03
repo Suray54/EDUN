@@ -18,9 +18,8 @@
         align-items: center;
 
         & i {
-          color: $primary-color;
+          color: $color-white;
           font-size: 1.6rem;
-
           &:hover {
             color: $secondary-color;
           }
@@ -36,6 +35,19 @@
         font-weight: 700;
         font-size: 15px;
         letter-spacing: 2px;
+      }
+
+      ul {
+        li {
+          a {
+            text-decoration: none;
+            color: $color-white;
+
+            &:hover {
+              color: $secondary-color;
+            }
+          }
+        }
       }
       i {
         margin-right: 5px;
