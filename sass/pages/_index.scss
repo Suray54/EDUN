@@ -268,7 +268,7 @@
 .staff {
   padding: 15vh 0;
 
-  a {
+  &__link {
     float: right;
     margin-right: 40px;
     @media only screen and (max-width: 600px) {
@@ -301,6 +301,9 @@
         & img {
           transform: scale(1.1);
         }
+        & .news__content-1--item p {
+          opacity: 1;
+        }
         & .news__content-1--item {
           transform: translateY(0px);
         }
@@ -330,7 +333,7 @@
         padding: 10px;
         color: $color-white;
         position: absolute;
-        top: 33%;
+        top: 20%;
         left: 10%;
         transition: all 0.5s;
         @media only screen and (max-width: 1200px) {
@@ -338,7 +341,7 @@
           padding: 0;
           top: 20%;
         }
-        transform: translateY(180px);
+        transform: translateY(200px);
         z-index: 1000;
         h1 {
           font-size: 3rem;
@@ -349,6 +352,7 @@
           margin-top: 4rem;
           font-size: 1.4rem;
           line-height: 27.2px;
+          opacity: 0;
         }
       }
     }
@@ -446,8 +450,8 @@
   &__img {
     background-image: url(../img/group2.jpg);
     background-size: cover;
-    background-position: bottom;
-    padding: 18rem;
+    background-position: top;
+    padding: 20rem;
   }
   &__content {
     display: flex;

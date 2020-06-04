@@ -417,7 +417,8 @@ body {
   align-items: center;
   padding: 20rem 4rem 5rem 4rem;
   cursor: pointer;
-  transition: all 0.3s; }
+  transition: all 0.3s;
+  text-align: center; }
   .member-box:hover {
     transform: scale(1.1);
     z-index: 100; }
@@ -453,6 +454,10 @@ body {
     background-image: url(../img/birendra.jpg);
     background-size: cover;
     background-position: top; }
+  .member-box__link {
+    text-align: center; }
+    .member-box__link:hover {
+      text-decoration: none; }
   .member-box__heading {
     color: #fff;
     font-size: 2.1rem;
@@ -723,6 +728,10 @@ body {
   background: #55acee;
   color: white; }
 
+.instagram {
+  background: #dd4b39;
+  color: white; }
+
 .google {
   background: #dd4b39;
   color: white; }
@@ -928,11 +937,11 @@ body {
 
 .staff {
   padding: 15vh 0; }
-  .staff a {
+  .staff__link {
     float: right;
     margin-right: 40px; }
     @media only screen and (max-width: 600px) {
-      .staff a {
+      .staff__link {
         float: left;
         margin-left: 40px; } }
 
@@ -952,6 +961,8 @@ body {
     transition: all 0.3s; }
     .news__content-1:hover img {
       transform: scale(1.1); }
+    .news__content-1:hover .news__content-1--item p {
+      opacity: 1; }
     .news__content-1:hover .news__content-1--item {
       transform: translateY(0px); }
     .news__content-1:after {
@@ -973,10 +984,10 @@ body {
       padding: 10px;
       color: #fff;
       position: absolute;
-      top: 33%;
+      top: 20%;
       left: 10%;
       transition: all 0.5s;
-      transform: translateY(180px);
+      transform: translateY(200px);
       z-index: 1000; }
       @media only screen and (max-width: 1200px) {
         .news__content-1--item {
@@ -990,7 +1001,8 @@ body {
       .news__content-1--item p {
         margin-top: 4rem;
         font-size: 1.4rem;
-        line-height: 27.2px; }
+        line-height: 27.2px;
+        opacity: 0; }
 
 .volunteer {
   padding: 8rem 0;
@@ -1061,8 +1073,8 @@ body {
 .subscribe__img {
   background-image: url(../img/group2.jpg);
   background-size: cover;
-  background-position: bottom;
-  padding: 18rem; }
+  background-position: top;
+  padding: 20rem; }
 .subscribe__content {
   display: flex;
   flex-direction: column;
