@@ -1,11 +1,15 @@
 /////////////////// bar ///////////////////
 .bar {
   margin: 0;
-  padding: 18rem;
+  padding: 22rem 10rem 8rem 10rem;
   background-image: linear-gradient(to right bottom, #4c90bbb2, #64b1d5a2),
     url(../img/banner.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
+
+  @media only screen and (max-width: 600px) {
+    padding: 22rem 10rem 6rem 10rem;
+  }
 }
 
 .content {
