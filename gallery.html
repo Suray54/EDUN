@@ -162,7 +162,7 @@
 
     </div>
 
-
+    <!--
     <div class=" gallery" data-aos="fade-up">
         <ul id="aw-gallery">
             <li> <a class="demo" href="img/person1.jpg" data-lightbox="gallery">
@@ -218,11 +218,62 @@
             </li>
 
         </ul>
+    </div>  -->
+    <div class="gallery">
+        <h1>Simple Filter Gallery</h1>
+        <ul class="filtermenu">
+            <li data-filter="all">all</li>
+            <li data-filter="black">Events</li>
+            <li data-filter="red">Members</li>
+            <li data-filter="blue">Donors</li>
+        </ul>
+        <div class="container-fluid">
+            <div class="post red">
+                <a class="demo" href="img/person1.jpg" data-lightbox="gallery">
+                    <img src="img/person1.jpg" style="width:100%">
+                </a>
+            </div>
+            <!-- /post -->
+            <div class="post black">
+                <a class="demo" href="img/person1.jpg" data-lightbox="gallery">
+                    <img src="img/person1.jpg" style="width:100%">
+                </a>
+
+            </div>
+            <!-- /post -->
+            <div class="post black">
+                <a class="demo" href="img/person2.jpg" data-lightbox="gallery">
+                    <img src="img/person2.jpg" style="width:100%">
+                </a>
+            </div>
+            <!-- /post -->
+            <div class="post blue">
+                <a class="demo" href="img/president.jpg" data-lightbox="gallery">
+                    <img src="img/president.jpg" style="width:100%">
+                </a>
+            </div>
+            <!-- /post -->
+            <div class="post black">
+                <a class="demo" href="img/president.jpg" data-lightbox="gallery">
+                    <img src="img/president.jpg" style="width:100%">
+                </a>
+            </div>
+            <!-- /post -->
+            <div class="post blue">
+                <a class="demo" href="img/person2.jpg" data-lightbox="gallery">
+                    <img src="img/person2.jpg" style="width:100%">
+                </a>
+            </div>
+            <!-- /post -->
+            <div class="post blue">
+                <a class="demo" href="img/person2.jpg" data-lightbox="gallery">
+                    <img src="img/person2.jpg" style="width:100%">
+                </a>
+            </div>
+            <!-- /post -->
+        </div>
+
     </div>
-
-
-
-
     <!-- subscribe start -->
     <div class="container-fluid subscribe">
         <div class="row">
@@ -306,7 +357,59 @@
         </div>
     </footer>
     <!-- Footer Part end -->
+    <script>
+        class FilterGallery {
+            constructor() {
+                this.$filtermenuList = $(".filtermenu li");
+                this.$container = $(".container-fluid");
 
+                this.updateMenu("all");
+                this.$filtermenuList.on("click", $.proxy(this.onClickFilterMenu, this));
+            }
+
+            onClickFilterMenu(event) {
+                const $target = $(event.target);
+                const targetFilter = $target.data("filter");
+
+                this.updateMenu(targetFilter);
+                this.updateGallery(targetFilter);
+            }
+
+            updateMenu(targetFilter) {
+                this.$filtermenuList.removeClass("active");
+                this.$filtermenuList.each((index, element) => {
+                    const targetData = $(element).data("filter");
+
+                    if (targetData === targetFilter) {
+                        $(element).addClass("active");
+                    }
+                });
+            }
+
+            updateGallery(targetFilter) {
+                if (targetFilter === "all") {
+                    this.$container.fadeOut(300, () => {
+                        $(".post").show();
+                        this.$container.fadeIn();
+                    });
+                } else {
+                    this.$container.find(".post").each((index, element) => {
+                        this.$container.fadeOut(300, () => {
+                            if ($(element).hasClass(targetFilter)) {
+                                $(element).show();
+                            } else {
+                                $(element).hide();
+                            }
+                            this.$container.fadeIn();
+                        });
+                    });
+                }
+            }
+        }
+
+        const fliterGallery = new FilterGallery();
+
+    </script>
     <script>
 
         AOS.init({
@@ -314,6 +417,7 @@
             delay: 100,
             once: true,
         });
+
         $(window).scroll(function () {
             if ($(document).scrollTop() > 30) {
                 $('.navbar').addClass('affix');
@@ -321,6 +425,7 @@
                 $('.navbar').removeClass('affix');
             }
         });
+
         $('.owl-carousel').owlCarousel({
             loop: true,
             margin: 10,

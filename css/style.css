@@ -1293,4 +1293,40 @@ body {
     .contact__form--btn:focus {
       outline: none; }
 
+.gallery h1 {
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 30px;
+  padding: 40px 0 10px 0; }
+.gallery img {
+  max-width: 100%; }
+.gallery .filtermenu {
+  width: 100%;
+  margin: 20px auto;
+  text-align: center; }
+.gallery .filtermenu li {
+  border: 1px solid #ccc;
+  padding: 4px 12px;
+  display: inline-block;
+  border-radius: 6px;
+  cursor: pointer; }
+.gallery .filtermenu li.active {
+  background: #ccc; }
+.gallery .container-fluid {
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap; }
+.gallery .post {
+  width: 230px;
+  margin: 10px; }
+.gallery .post-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px; }
+.gallery .post-thumb {
+  margin-bottom: 10px; }
+.gallery .post-txt {
+  font-size: 12px; }
+
 /*# sourceMappingURL=style.css.map */
