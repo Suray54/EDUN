@@ -27,7 +27,7 @@
 
   &__content {
     .div {
-      padding: 20px;
+      padding: 40px;
       box-shadow: 0 1.5rem 4rem rgba($color-black, 0.25);
       transition: 0.5s;
       &:hover {
@@ -39,6 +39,7 @@
     .social-icons {
       margin: 0;
       padding: 0;
+      font-size: 30px;
       display: flex;
       align-items: center;
       & li {
