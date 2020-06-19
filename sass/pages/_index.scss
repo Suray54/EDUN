@@ -275,6 +275,10 @@
         }
         transform: translateY(200px);
         z-index: 1000;
+        a {
+          text-decoration: none;
+          color: $color-white;
+        }
         h1 {
           font-size: 3rem;
           line-height: 37.5px;

@@ -912,6 +912,9 @@ body {
           transform: translateY(0px);
           padding: 0;
           top: 20%; } }
+      .news__content-1--item a {
+        text-decoration: none;
+        color: #fff; }
       .news__content-1--item h1 {
         font-size: 3rem;
         line-height: 37.5px;
@@ -1295,8 +1298,5 @@ body {
   margin-bottom: 10px; }
 .gallery .post-txt {
   font-size: 12px; }
-
-.table {
-  padding: 30px 10%; }
 
 /*# sourceMappingURL=style.css.map */
