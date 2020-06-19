@@ -90,3 +90,15 @@
     width: 6rem;
   }
 }
+.paffix {
+  // when scrolled affix is added changing the following properties for effect
+  transition: all 0.8s;
+  .navbar-nav li a {
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    font-weight: 600;
+  }
+  .nav-logo {
+    width: 6rem;
+  }
+}

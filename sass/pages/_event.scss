@@ -1,41 +1,51 @@
-.section-cover {
-  height: 55vh;
-  position: relative;
-}
+.event {
+  padding: 10rem 10%;
 
-.section--text {
-  position: absolute;
-  top: 50%;
-  left: 55%;
-  transform: translate(-50%, -50%);
-}
-.heading-primary-1 {
-  &--main {
-    @media only screen and (max-width: 500px) {
-      font-size: 1.2rem;
+  &__container {
+    @media only screen and (max-width: 900px) {
+      margin-top: 3rem;
     }
-    text-transform: uppercase;
-    display: block;
-    font-size: 1.6rem;
-    font-weight: 600;
-    letter-spacing: 0.1rem;
-    cursor: pointer;
-    color: $primary-color-back;
   }
-
-  &--sup {
-    @media only screen and (max-width: 500px) {
+  &__details {
+    background-color: $color-white;
+    padding: 3rem;
+    border: 2px solid var(--color-grey-light);
+    a {
       font-size: 2rem;
+      font-weight: 700;
+      line-height: 3.6rem;
+      text-decoration: none;
+      color: $color-black;
     }
-    text-transform: capitalize;
-    margin-top: 1rem;
-    display: block;
-    font-size: 4rem;
-    font-weight: 600;
-    letter-spacing: 0.5rem;
-    cursor: pointer;
-    span {
-      color: $secondary-color;
+
+    &-bar {
+      margin-top: 2rem;
+
+      ul {
+        display: flex;
+        align-items: center;
+        li {
+          color: $primary-color;
+          i {
+            margin-right: 5px;
+            font-size: 12px;
+            margin-bottom: 10px;
+          }
+          p {
+            color: $primary-color;
+          }
+          display: flex;
+
+          align-items: center;
+          margin-right: 20px;
+        }
+      }
+    }
+
+    p {
+      text-align: justify;
+      font-size: 1.4rem;
+      color: $color-write;
     }
   }
 }
