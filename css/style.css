@@ -1157,13 +1157,17 @@ body {
   .event__details {
     background-color: #fff;
     padding: 3rem;
-    border: 2px solid var(--color-grey-light); }
+    border: 2px solid var(--color-grey-light);
+    transition: 0.5s; }
     .event__details a {
       font-size: 2rem;
       font-weight: 700;
       line-height: 3.6rem;
       text-decoration: none;
       color: #000; }
+    .event__details:hover {
+      transform: translateY(-1rem) scale(1.03);
+      box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.35); }
     .event__details-bar {
       margin-top: 2rem; }
       .event__details-bar ul {
