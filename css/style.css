@@ -320,7 +320,7 @@ body {
     .carousel-caption1 {
       top: 15%; } }
   .carousel-caption1 span {
-    color: #4c91bb; }
+    color: #f7c33f; }
   .carousel-caption1 .red {
     font-weight: 700;
     font-size: 50px;
@@ -356,7 +356,7 @@ body {
     .carousel-caption2 {
       top: 15%; } }
   .carousel-caption2 span {
-    color: #4c91bb; }
+    color: #f7c33f; }
   .carousel-caption2 .red {
     font-weight: 700;
     font-size: 50px;
@@ -463,7 +463,7 @@ body {
     font-size: 2.1rem;
     font-weight: 700;
     text-transform: uppercase;
-    color: #4c91bb; }
+    color: rgba(255, 255, 255, 0.774); }
   .member-box p {
     font-size: 1.8rem;
     line-height: 28.9px;
@@ -484,7 +484,7 @@ body {
       margin: 0; }
     .member-box__social-icons i {
       font-size: 1.8rem;
-      color: #4c91bb; }
+      color: rgba(255, 255, 255, 0.774); }
 
 .top {
   display: flex;
@@ -523,7 +523,6 @@ body {
     .footer__content--1 {
       margin-top: 2rem; }
       .footer__content--1 img {
-        width: 6rem;
         height: 6rem; }
       .footer__content--1-icons {
         margin-top: 4rem;
