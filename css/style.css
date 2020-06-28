@@ -1189,33 +1189,15 @@ body {
       font-size: 1.4rem;
       color: #898989; }
 
-.partner {
-  padding: 10vh 0; }
-  .partner p {
-    margin-top: 4rem;
-    font-size: 1.6rem;
-    text-align: center;
-    color: #898989; }
-  .partner__img {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center; }
-    .partner__img img {
-      transition: 0.3s; }
-      .partner__img img:hover {
-        transform: scale(1.1); }
+.error-cover {
+  height: 55vh;
+  position: relative; }
 
-.donor {
-  padding: 5vh 5% 20vh 5%; }
-  .donor p {
-    font-size: 1.6rem;
-    color: #898989; }
-
-.staffs__content p {
-  font-size: 1.4rem;
-  text-align: justify;
-  color: #898989; }
+.error--text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
 
 .contact {
   padding: 15vh 5%; }
