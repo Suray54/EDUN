@@ -17,9 +17,15 @@
     }
   }
   & .pad {
-    padding: 60px;
+    padding: 50px;
     background-color: $color-white;
     border-radius: 20px;
+    box-shadow: 0 1.5rem 4rem rgba($color-black, 0.25);
+    transition: 0.5s;
+    &:hover {
+      box-shadow: 0 2.5rem 4rem rgba($color-black, 0.35);
+      transform: translateY(-1rem) scale(1.03);
+    }
   }
 
   & .esewa {
@@ -28,7 +34,7 @@
     }
 
     &__detail {
-      padding-top: 40px;
+      padding-top: 20px;
       h1 {
         font-size: 32px;
         font-weight: 700;
