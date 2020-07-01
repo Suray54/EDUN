@@ -1282,6 +1282,18 @@ body {
 .donation {
   background-color: #f6f6f6;
   padding: 15vh 5%; }
+  .donation h1 {
+    font-size: 40px;
+    line-height: 70px;
+    font-weight: 700;
+    position: relative; }
+    .donation h1::before {
+      content: "";
+      bottom: 0;
+      left: 0;
+      border-bottom: 3px solid #64b1d5;
+      position: absolute;
+      width: 70px; }
   .donation .pad {
     margin: 20px;
     display: flex;
