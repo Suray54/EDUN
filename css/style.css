@@ -1281,7 +1281,7 @@ body {
 
 .donation {
   background-color: #f6f6f6;
-  padding: 15vh 5%; }
+  padding: 15vh 10%; }
   .donation h1 {
     font-size: 40px;
     line-height: 70px;
@@ -1295,17 +1295,13 @@ body {
       position: absolute;
       width: 70px; }
   .donation .pad {
-    margin: 20px;
-    display: flex;
-    flex-direction: column;
     padding: 60px;
     background-color: #fff;
     border-radius: 20px; }
   .donation .esewa img {
-    align-self: center;
-    width: 20rem; }
+    width: 16rem; }
   .donation .esewa__detail {
-    padding-top: 60px; }
+    padding-top: 40px; }
     .donation .esewa__detail h1 {
       font-size: 32px;
       font-weight: 700;
