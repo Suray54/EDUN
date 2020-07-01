@@ -431,7 +431,7 @@ body {
     background-size: cover;
     background-position: top; }
   .member-box--3 {
-    background-image: url(../img/birendra.jpg);
+    background-image: url(../img/bibash.jpg);
     background-size: cover;
     background-position: top; }
   .member-box--4 {
@@ -1037,7 +1037,7 @@ body {
     margin-left: -5px; }
 
 .membership {
-  padding: 5vh 5%; }
+  padding: 15vh 5%; }
   .membership h1 {
     font-size: 40px;
     line-height: 70px;
@@ -1050,11 +1050,6 @@ body {
       border-bottom: 3px solid #64b1d5;
       position: absolute;
       width: 70px; }
-  .membership__logo {
-    width: 20rem;
-    margin-left: 20px; }
-  .membership__form {
-    padding: 5vh 5%; }
 
 .bar {
   margin: 0;
@@ -1283,5 +1278,33 @@ body {
   margin-bottom: 10px; }
 .gallery .post-txt {
   font-size: 12px; }
+
+.donation {
+  background-color: #f6f6f6;
+  padding: 15vh 5%; }
+  .donation .pad {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+    background-color: #fff;
+    border-radius: 20px; }
+  .donation .esewa img {
+    align-self: center;
+    width: 20rem; }
+  .donation .esewa__detail {
+    padding-top: 60px; }
+    .donation .esewa__detail h1 {
+      font-size: 32px;
+      font-weight: 700;
+      margin-bottom: 20px; }
+    .donation .esewa__detail p {
+      margin-top: 10px;
+      font-weight: 600;
+      color: #898989; }
+      .donation .esewa__detail p span {
+        margin-left: 20px;
+        color: #000;
+        font-weight: 400; }
 
 /*# sourceMappingURL=style.css.map */

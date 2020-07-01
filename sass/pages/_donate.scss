@@ -1,0 +1,38 @@
+.donation {
+  background-color: $color-bg;
+  padding: 15vh 5%;
+  & .pad {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+    background-color: $color-white;
+    border-radius: 20px;
+  }
+
+  & .esewa {
+    & img {
+      align-self: center;
+      width: 20rem;
+    }
+
+    &__detail {
+      padding-top: 60px;
+      h1 {
+        font-size: 32px;
+        font-weight: 700;
+        margin-bottom: 20px;
+      }
+      p {
+        margin-top: 10px;
+        font-weight: 600;
+        color: $color-write;
+        span {
+          margin-left: 20px;
+          color: $color-black;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+}
