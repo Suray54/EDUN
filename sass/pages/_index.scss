@@ -4,7 +4,7 @@
   color: $color-white;
   &__result {
     background-image: linear-gradient(to right bottom, #7ed56fbe, #28b485b0),
-      url("../img/1.jpg");
+      url("../img/1.webp");
     background-size: cover;
 
     padding: 4rem;
@@ -40,7 +40,7 @@
 
   &__goals {
     background-image: linear-gradient(to right bottom, #d8d664be, #67b428b0),
-      url("../img/1a.jpg");
+      url("../img/1a.webp");
     background-size: cover;
     padding: 3rem;
 
@@ -68,7 +68,7 @@
     justify-content: center;
     align-items: center;
     background-image: linear-gradient(to right, #dd6c63be, #b4a628b0),
-      url("../img/1b.jpg");
+      url("../img/1b.webp");
     background-size: cover;
     padding: 3rem;
     text-align: center;
@@ -325,7 +325,7 @@
     &--img {
       margin: 0;
       padding: 120px;
-      background-image: url(../img/president.jpg);
+      background-image: url(../img/president.webp);
       background-size: cover;
       background-position: top;
     }
@@ -384,7 +384,7 @@
 
 .subscribe {
   &__img {
-    background-image: url(../img/group2.jpg);
+    background-image: url(../img/group2.webp);
     background-size: cover;
     background-position: top;
     padding: 20rem;

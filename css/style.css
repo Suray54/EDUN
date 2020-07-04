@@ -423,35 +423,35 @@ body {
     transform: scale(1.1);
     z-index: 100; }
   .member-box--1 {
-    background-image: url(../img/samundra.jpg);
+    background-image: url(../img/samundra.webp);
     background-size: cover;
     background-position: top; }
   .member-box--2 {
-    background-image: url(../img/tilak.jpg);
+    background-image: url(../img/tilak.webp);
     background-size: cover;
     background-position: top; }
   .member-box--3 {
-    background-image: url(../img/bibash.jpg);
+    background-image: url(../img/bibash.webp);
     background-size: cover;
     background-position: top; }
   .member-box--4 {
-    background-image: url(../img/sandesh.jpg);
+    background-image: url(../img/sandesh.webp);
     background-size: cover;
     background-position: top; }
   .member-box--5 {
-    background-image: url(../img/anup.jpg);
+    background-image: url(../img/anup.webp);
     background-size: cover;
     background-position: top; }
   .member-box--6 {
-    background-image: url(../img/kussum.jpg);
+    background-image: url(../img/kussum.webp);
     background-size: cover;
     background-position: top; }
   .member-box--7 {
-    background-image: url(../img/asutosh.jpg);
+    background-image: url(../img/asutosh.webp);
     background-size: cover;
     background-position: top; }
   .member-box--8 {
-    background-image: url(../img/birendra.jpg);
+    background-image: url(../img/birendra.webp);
     background-size: cover;
     background-position: top; }
   .member-box__link {
@@ -720,7 +720,7 @@ body {
 .newbar {
   color: #fff; }
   .newbar__result {
-    background-image: linear-gradient(to right bottom, #7ed56fbe, #28b485b0), url("../img/1.jpg");
+    background-image: linear-gradient(to right bottom, #7ed56fbe, #28b485b0), url("../img/1.webp");
     background-size: cover;
     padding: 4rem; }
     .newbar__result h1 {
@@ -745,7 +745,7 @@ body {
         letter-spacing: 2px;
         line-height: 3rem; }
   .newbar__goals {
-    background-image: linear-gradient(to right bottom, #d8d664be, #67b428b0), url("../img/1a.jpg");
+    background-image: linear-gradient(to right bottom, #d8d664be, #67b428b0), url("../img/1a.webp");
     background-size: cover;
     padding: 3rem; }
     .newbar__goals h1 {
@@ -765,7 +765,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(to right, #dd6c63be, #b4a628b0), url("../img/1b.jpg");
+    background-image: linear-gradient(to right, #dd6c63be, #b4a628b0), url("../img/1b.webp");
     background-size: cover;
     padding: 3rem;
     text-align: center; }
@@ -948,7 +948,7 @@ body {
     .message__content--img {
       margin: 0;
       padding: 120px;
-      background-image: url(../img/president.jpg);
+      background-image: url(../img/president.webp);
       background-size: cover;
       background-position: top; }
     .message__content--letter {
@@ -991,7 +991,7 @@ body {
         margin-right: 5rem; }
 
 .subscribe__img {
-  background-image: url(../img/group2.jpg);
+  background-image: url(../img/group2.webp);
   background-size: cover;
   background-position: top;
   padding: 20rem; }
@@ -1054,7 +1054,7 @@ body {
 .bar {
   margin: 0;
   padding: 22rem 10rem 8rem 10rem;
-  background-image: linear-gradient(to right bottom, #4c90bbb2, #64b1d5a2), url(../img/banner.jpg);
+  background-image: linear-gradient(to right bottom, #4c90bbb2, #64b1d5a2), url(../img/banner.webp);
   background-size: cover;
   background-position: bottom; }
   @media only screen and (max-width: 600px) {
