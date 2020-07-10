@@ -1067,11 +1067,15 @@ body {
     font-size: 40px;
     line-height: 70px;
     font-weight: 700;
-    position: relative; }
+    position: relative;
+    margin-left: -30px; }
+    @media only screen and (max-width: 1200px) {
+      .content h1 {
+        margin-left: 0; } }
     .content h1::before {
       content: "";
       bottom: 0;
-      left: 0;
+      left: 10px;
       border-bottom: 3px solid #64b1d5;
       position: absolute;
       width: 70px; }
@@ -1091,7 +1095,11 @@ body {
     font-size: 40px;
     line-height: 70px;
     font-weight: 700;
-    position: relative; }
+    position: relative;
+    margin-left: -30px; }
+    @media only screen and (max-width: 1200px) {
+      .member h1 {
+        margin-left: 0; } }
     .member h1::before {
       content: "";
       bottom: 0;
@@ -1268,8 +1276,8 @@ body {
   display: flex;
   flex-wrap: wrap; }
 .gallery .post {
-  width: 200px;
-  margin: 10px; }
+  width: 225px;
+  margin: 5px; }
 .gallery .post-title {
   font-size: 18px;
   font-weight: bold;
