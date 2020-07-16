@@ -993,7 +993,7 @@ body {
 .subscribe__img {
   background-image: url(../img/group2.webp);
   background-size: cover;
-  background-position: top;
+  background-position: center;
   padding: 20rem; }
 .subscribe__content {
   display: flex;
@@ -1085,9 +1085,63 @@ body {
     text-align: justify;
     color: #898989; }
 
-.history__img {
-  padding: 0;
-  margin: 0; }
+.details {
+  padding: 15vh 8%; }
+  .details__data {
+    padding: 0 2%; }
+    .details__data h1 {
+      font-size: 35px;
+      line-height: 70px;
+      font-weight: 700;
+      position: relative;
+      margin-left: -30px; }
+      @media only screen and (max-width: 1200px) {
+        .details__data h1 {
+          margin-left: 0; } }
+      .details__data h1::before {
+        content: "";
+        bottom: 0;
+        left: 10px;
+        border-bottom: 3px solid #64b1d5;
+        position: absolute;
+        width: 70px; }
+    .details__data p {
+      margin-top: 4rem;
+      font-size: 1.5rem;
+      text-align: justify;
+      color: #898989; }
+  .details__image .composition {
+    margin-top: 20rem;
+    position: relative; }
+    @media only screen and (max-width: 990px) {
+      .details__image .composition {
+        display: none; } }
+    .details__image .composition__photo {
+      width: 70%;
+      position: absolute;
+      box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.4);
+      border-radius: 2px;
+      z-index: 0;
+      transition: 0.5s; }
+      .details__image .composition__photo--p1 {
+        top: -2rem;
+        left: 0; }
+      .details__image .composition__photo--p2 {
+        top: 4rem;
+        right: 0; }
+      .details__image .composition__photo--p3 {
+        top: 10rem;
+        left: 15%; }
+      .details__image .composition__photo:hover {
+        outline: 2rem solid #64b1d5;
+        outline-offset: 1.8rem;
+        transform: scale(1.05) translateY(-1.5rem);
+        box-shadow: 0 3.5rem 5rem rgba(0, 0, 0, 0.6);
+        z-index: 1; }
+      .details__image .composition__photo:not(hover) {
+        transform: scale(0.95); }
+    .details__image .composition:hover {
+      transform: scale(0.95); }
 
 .member {
   padding: 10vh 5% 5vh 5%; }
